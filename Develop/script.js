@@ -1,15 +1,3 @@
-//var weekdays = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"];
-//var date = ["1", "2", "3", "4", "5", "6", "7", "8," "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"];
-
-// var date = new Date();
-// var day = date.getDay();
-// document.getElementById("currentDay").innerHTML = weekdays[day];
-
-
-// var date = date.getDate();
-// document.getElementById("currentDay").innerHTML = date.get.date();
-// console.log(weekdays[day]);
-
 $(document).ready(function () {
   $("#currentDay").text(moment().format("dddd, MMMM Do"))
 
@@ -41,5 +29,6 @@ $(document).ready(function () {
   }
   color();
   // get info local storage - repeat for hour blocks
-  $("#9 .description").val(localStorage.getItem("9"))
+  $("#9 .description").val(localStorage.getItem("9"));
+
 })
